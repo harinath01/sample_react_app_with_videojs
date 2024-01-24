@@ -1,6 +1,11 @@
+import { VideoPlayer } from "./VideoPlayer";
+import './base.css'
+
 function App() {
   return (
-    <div className="App"></div>
+    <div className="center-container">
+      <VideoPlayer width={640} height={360}/>
+    </div>
   );
 }
 
