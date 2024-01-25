@@ -23,7 +23,11 @@ const App = () => {
       <VideoPlayer
         width={1280}
         height={720}
-        srcUrl="https://d384padtbeqfgy.cloudfront.net/transcoded/peBmzxeQ7Mf/video.m3u8"
+        orgCode="6eafqn"
+        assetId="YtuNKqjgK9D"
+        accessToken="fd591e6b-be1d-4703-929a-a6188540cfed"
+        hlsUrl="https://d384padtbeqfgy.cloudfront.net/transcoded/YtuNKqjgK9D/video.m3u8" 
+        dashUrl="https://d384padtbeqfgy.cloudfront.net/transcoded/YtuNKqjgK9D/video.mpd"
         onReady={handlePlayerReady}
       />
     </div>
